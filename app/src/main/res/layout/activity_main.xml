@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundLight"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mercatto Mathios"
+        android:textColor="@color/primaryDark"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        android:layout_marginBottom="28dp"/>
+
+    <CheckBox
+        android:id="@+id/cbArroz"
+        android:text="Arroz 5kg - R$24,90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/cbFeijao"
+        android:text="Feijão - R$8,50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/cbMacarrao"
+        android:text="Macarrão - R$6,90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/cbRefri"
+        android:text="Refrigerante 2L - R$9,00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:text="CALCULAR TOTAL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/primaryDark"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione seus produtos"
+        android:textColor="@color/primaryText"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desenvolvido por Matheus Freire"
+        android:textColor="@color/primaryText"
+        android:textSize="14sp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-light"
+        android:alpha="0.7"/>
+</LinearLayout>
